@@ -1,7 +1,7 @@
 let etaxDb = db.getSiblingDB("etax");
 const startDate = "2021-07-01T00:00:00.000Z";
 const endDate = "2021-09-01T00:00:00.000Z";
-const size = etaxDb.etax_reports.find(
+const size = etaxDb.email_event_delivery_reports.find(
     {
         createdDate: { $gte: ISODate(startDate), $lt: ISODate(endDate) },
         status: "FILE_RECEIVED"
