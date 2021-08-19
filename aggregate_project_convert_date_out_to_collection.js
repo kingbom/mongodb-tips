@@ -32,7 +32,7 @@ if (size == 0) {
                     merchantName: 1,
                     ownerFirstName: 1,
                     ownerLastName: 1,
-                    bucket: 1,
+                    bucket: "bucket_name",
                     resultFile: 1,
                     documentType: 1,
                     documentNumber: 1,
